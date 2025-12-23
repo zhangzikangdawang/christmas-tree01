@@ -206,7 +206,7 @@ export const Ornaments: React.FC<OrnamentsProps> = ({ mode, count }) => {
     <>
       {/* Balls: High Gloss Gold/Red */}
       <instancedMesh ref={ballsRef} args={[undefined, undefined, ballsData.length]}>
-        <sphereGeometry args={[1, 32, 32]} />
+        <sphereGeometry args={[1, 8, 8]} />
         <meshStandardMaterial 
           roughness={0.1} 
           metalness={0.9} 
